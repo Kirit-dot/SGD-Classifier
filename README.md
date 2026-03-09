@@ -13,6 +13,11 @@ To write a program to predict the type of species of the Iris flower using the S
 4. 
 
 ## Program:
+```
+Program to implement the prediction of iris species using SGD Classifier.
+Developed by: Kirit Lulla
+RegisterNumber:  25015046
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -83,12 +88,7 @@ placement_prob = sgd_model.predict_proba(new_student_scaled)
 print(f"\nPredicted Placement Status: {'Placed' if placement_pred[0]==1 else 'Not Placed'}")
 print(f"Probability of Placement: {placement_prob[0][1]:.2f}")
 
-```
-/*
-Program to implement the prediction of iris species using SGD Classifier.
-Developed by: Kirit Lulla
-RegisterNumber:  25015046
-*/
+
 ```
 
 ## Output:
