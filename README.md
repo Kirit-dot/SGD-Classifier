@@ -60,6 +60,8 @@ plt.show()
 
 ## Output:
 ![prediction of iris species using SGD Classifier](sam.png)
+<img width="670" height="580" alt="image" src="https://github.com/user-attachments/assets/cf78cf06-5926-473a-b0da-002924fd9410" />
+
 
 
 
